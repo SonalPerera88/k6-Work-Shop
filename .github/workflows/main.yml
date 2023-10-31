@@ -18,7 +18,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
       - name: Run test on local
-        uses: k6io/action@v1.0
+        uses: k6io/action@v0.1
         with:
           filename: basicTest01.js
  build:
